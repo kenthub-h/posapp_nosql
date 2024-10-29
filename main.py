@@ -8,7 +8,7 @@ app = FastAPI()
 # CORS設定を追加
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://tech0-gen-7-step4-studentwebapp-pos-13-hkg4g2g5d8c0fqg0.eastus-01.azurewebsites.net"],
+    allow_origins=["https://tech0-gen-7-step4-studentwebapp-pos-13-hkg4g2g5d8c0fqg0.eastus-01.azurewebsites.net/"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
